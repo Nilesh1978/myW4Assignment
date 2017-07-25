@@ -3,8 +3,8 @@ Type: Package
 Title: Handle Fatality Analysis Reporting System Data
 Version: 0.1.0
 Date: 2017-07-25
-Author: Raphael Monstein
-Maintainer: Raphael Monstein
+Author: Raphael Monstein <mora@zhaw.ch>
+Maintainer: Raphael Monstein <mora@zhaw.ch>
 Description: Bunch of functions to load and analyze Handle Fatality 
     Analysis Reporting System data
 License: GPL (>= 2)
