@@ -20,21 +20,29 @@ The package provides the following functions:
 
 For details about each function, have a look at the documentation.
 
+## Installation
+
+You can install myW4Assignment from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github('monstrap/myW4Assignment')
+```
+
 ## Usage
-*Note that you have to copy-paste the data into your working directory in order for the functions to work.*
 
 To simply run the analysis and generate a plot, you can run the following:
+```{r options, echo=FALSE}
+mypath <- system.file("extdata", package = "myW4Assignment")
+knitr::opts_knit$set(root.dir = mypath)
+```
 
-```{r map_example}
-library("myW4Assignment")
-setwd("../inst/extdata")
+```{r map_example, eval=FALSE}
 fars_map_state(1, 2013)
 ```
 
 If you are interested in a summary of the data, you could use the following code:
 
-```{r summary_example}
-library("myW4Assignment")
-setwd("../inst/extdata")
+```{r summary_example, eval=FALSE}
 fars_summarize_years(2013)
 ```

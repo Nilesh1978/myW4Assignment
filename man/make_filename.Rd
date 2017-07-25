@@ -13,10 +13,6 @@ make_filename(year)
 This function returns a string containing the file name.
 }
 \description{
-This function creates a valid Fatality Analysis Reporting System 
+This function creates a valid Fatality Analysis Reporting System
 file name for a given year.
-}
-\examples{
-fars_file_name <- make_filename(2013)
-
 }

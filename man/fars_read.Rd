@@ -14,14 +14,9 @@ This function returns the content of the read file in as a
         data frame.
 }
 \description{
-This function reads a file from the Fatality Analysis Reporting 
+This function reads a file from the Fatality Analysis Reporting
 System and returns its content as a data frame.
 }
 \note{
 This function will create an error if the file does not exist.
-}
-\examples{
-fars_data <- fars_read("accident_2013.csv.bz2")
-fars_data <- fars_read(make_filename(2013))
-
 }

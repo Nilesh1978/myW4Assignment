@@ -15,12 +15,7 @@ This function returns a list (or a list of lists in the case
         the data read from the corresponding files.
 }
 \description{
-This function reads multiple files from the Fatality Analysis 
+This function reads multiple files from the Fatality Analysis
 Reporting System. The files are organized in such a way that each
 file contains the data of one year.
-}
-\examples{
-fars_data <- fars_read_years(2013)
-fars_data <- fars_read_years(c(2013, 2014))
-
 }

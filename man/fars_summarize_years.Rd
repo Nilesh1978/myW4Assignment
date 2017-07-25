@@ -14,11 +14,6 @@ This function returns a data frame with a summary of the
         Fatality Analysis Reporting System data for the given years.
 }
 \description{
-This function loads the relevant Fatality Analysis Reporting System 
+This function loads the relevant Fatality Analysis Reporting System
 files and creates a summary of its data.
-}
-\examples{
-fars_data <- fars_summarize_years(2013)
-fars_data <- fars_summarize_years(c(2013, 2014))
-
 }
