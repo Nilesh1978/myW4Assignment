@@ -35,7 +35,6 @@ devtools::install_github("monstrap/myW4Assignment")
 ```
 
 ## Usage
-## Usage
 
 To simply run the analysis and generate a plot, you can run the following:
 ```{r options, echo=FALSE}
