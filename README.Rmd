@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# myW4Assignment
+
+This package helps you to use Fatality Analysis Reporting System (FARS) data. It provides functions to load and analyze FARS data. The data is in a compressed format and can be found in the directory *inst/extdata*.
+
+The package provides the following functions:
+* fars_read
+* make_filename
+* fars_read_years
+* fars_summarize_years
+* fars_map_state
+
+For details about each function, have a look at the documentation.
+
+## Installation
+
+You can install myW4Assignment from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("monstrap/myW4Assignment")
+```
+
+## Usage
+*Note that you have to copy-paste the data into your working directory in order for the functions to work.*
+
+To simply run the analysis and generate a plot, you can run the following:
+
+```{r map_example}
+library("myW4Assignment")
+setwd("../inst/extdata")
+fars_map_state(1, 2013)
+```
+
+If you are interested in a summary of the data, you could use the following code:
+
+```{r summary_example}
+library("myW4Assignment")
+setwd("../inst/extdata")
+fars_summarize_years(2013)
+```
