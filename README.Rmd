@@ -14,6 +14,8 @@ knitr::opts_chunk$set(
 
 # myW4Assignment
 
+[![Build Status](https://travis-ci.org/monstrap/myW4Assignment.svg?branch=master)](https://travis-ci.org/monstrap/myW4Assignment)
+
 This package helps you to use Fatality Analysis Reporting System (FARS) data. It provides functions to load and analyze FARS data. The data is in a compressed format and can be found in the directory *inst/extdata*.
 
 The package provides the following functions:
